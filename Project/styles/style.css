@@ -1,3 +1,59 @@
-p {
-    color: red;
+
+  
+
+.namemarca{
+
+color: blue;
+border: 2px,  solid green;
+display: inline-block; /* Esto hace que el contenedor se ajuste al tamaño de su contenido */
+padding: 1%;
+
+
+}
+
+
+.titulo1 {
+  float: left;
+  border: 1px solid black; /* Añadir borde a cada título */
+  padding: 10px; /* Añadir espacio dentro del borde */
+  margin-right: 20px; /* Espacio entre los dos títulos */
+}
+
+.titulo2 {
+  float: left;
+  border: 1px solid black; /* Añadir borde a cada título */
+  padding: 10px; /* Añadir espacio dentro del borde */
+  margin-right: 20px; /* Espacio entre los dos títulos */
+  font-size: smaller; /* Hace que el texto del segundo título sea más pequeño */
+  margin-top: 90px; /* Mover el título hacia abajo */
+}
+
+
+
+
+
+
+  h3{
+
+
+    text-align: center;
+ border-color: aqua;
+ border-style: solid;
+  border-width: 0.1cm;
+
   }
+
+  .contenedor {
+    display: inline-block; /* Esto hace que el contenedor se ajuste al tamaño de su contenido */
+    padding: 10px; /* Espacio entre el borde y la imagen */
+    border: 2px solid black; /* Borde de aproximadamente 1 cm */
+}
+
+.contenedor img {
+    display: block; /* Esto asegura que la imagen se ajuste correctamente dentro del contenedor */
+    max-width: calc(100% - 20px); /* Ajusta el ancho máximo de la imagen para que coincida con el contenedor */
+    height: auto; /* Para mantener la proporción de la imagen */
+}
+
+
+
