@@ -10,16 +10,37 @@
   
   body{
    
+      margin: 0;
        background: rgb(255, 255, 255);
    
        font-family: 'open sans';
   }
   
+ .container{
+background-color: #0984CC;
+width: 50px ;
+height: 100% ;   
+}
+
+  .header{
 
 
-  .tag1{
+  
+  
+      position: calc();
+      top: 0;
+      left: 0;
+      margin: 0;
+      padding: 10px;
+  
+  
 
-border-width: 0cap;
+color: rgb(255, 255, 255);
+
+border: #363636;
+background-color: #222831;
+padding-bottom: 10%;
+
 
   }
   .wrap{
