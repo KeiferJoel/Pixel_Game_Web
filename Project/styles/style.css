@@ -1,131 +1,161 @@
-*{  
+.vacio{
 
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-     box-sizing: border-box;
-  
-  }
-  
-  body{
+   color: #6b0103;
    
-      margin: 0;
-       background: rgb(255, 255, 255);
    
-       font-family: 'open sans';
-  }
-  
- .container{
-background-color: #0984CC;
-width: 50px ;
-height: 100% ;   
-}
-
-  .header{
-
-
-  
-  
-      position: calc();
-      top: 0;
-      left: 0;
-      margin: 0;
-      padding: 10px;
-  
-  
-
-color: rgb(255, 255, 255);
-
-border: #363636;
-background-color: #222831;
-padding-bottom: 10%;
-
-
-  }
-  .wrap{
-  
-     width: 1400px;
-  
-     max-width: 100%;
-  
-     margin: 35px auto;
-  }
-  
-  ul.tabs{
-  
-    width: 100%;
-    background:#363636;
-    list-style: none;
-    display:flex;
-  }
-  
-  ul.tabs li{
-background-color: rgb(67, 67, 193) ;  
-  
-  }
-  
-  ul.tabs li a{
-  
-     color: aliceblue;
-     text-decoration: none;
-     font-size: 15px;
+   }
+   
+   body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #6b0103;
+     color: #ffffff;
+   }
+   
+   .container {
+     width: 80%;
+     margin: 0 auto;
+   }
+   
+   .header {
+     background-color: #1c0113;
+     padding: 20px 0;
+   }
+   
+   .header h1 {
+     font-size: 36px;
+     color: #DA1212;
+     margin-bottom: 10px;
+   }
+   
+   .header p {
+     font-size: 18px;
+     margin-bottom: 30px;
+   }
+   
+   .navbar ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
      text-align: center;
-  
-     display: block;
-     padding: 15px 0px;
-  }
-  .active{
-  background: #0984CC;
-  
-  }
-  ul.tabs li a .tab-tex{
-  
-  margin-left: 10px;
-  }
-  
-  .secciones{
-  
+   }
+   
+   .navbar ul li {
+     display: inline-block;
+     margin-right: 20px;
+   }
+   
+   .navbar ul li a {
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 20px;
+     transition: color 0.3s;
+   }
+   
+   .navbar ul li a:hover {
+     color: #5DEBD7;
+   }
+   
+   .hero {
+     background-image: url('hero-bg.jpg');
+     background-size: cover;
+     background-position: center;
+     color: #ffffff;
+     text-align: center;
+     padding: 100px 0;
+   }
+   
+   .hero h2 {
+     font-size: 48px;
+     margin-bottom: 20px;
+   }
+   
+   .hero p {
+     font-size: 24px;
+     margin-bottom: 40px;
+   }
+   
+   .btn {
+     background-color: #a30006;
+     color: #ffffff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     font-size: 20px;
+     text-decoration: none;
+     transition: background-color 0.3s;
+   }
+   
+   .btn:hover {
+     background-color: #a30006;
+   }
+   
+   .section {
+     margin-top: 15px; /* Ajusta el espacio vertical entre las secciones según tus preferencias */
+     background-color: #a30006;
+     border-radius: 35px;
+     padding: 30px;
+   }
+   
+   .section h2 {
+     margin-top: 0; /* Ajusta el margen superior del título según sea necesario */
+   }
+   
+   .section h2 {
+     font-size: 36px;
+     margin-bottom: 20px;
+     color: #ffffff;
+   }
+   
+   .section p {
+     font-size: 18px;
+     line-height: 1.6;
+     margin-bottom: 30px;
+   }
+   
+   .footer {
+     background-color: #101010;
+     padding: 20px 0;
+     text-align: center;
+     position: fixed;
+     bottom: 0;
      width: 100%;
-     background: floralwhite;
-  }
-  .secciones article{
-  
-     padding: 30px;
-  }
-  
-  .secciones article p{
-  
-     text-align:justify; 
-  }
-  
-  @media screen and (max-width:800px){
-     ul.tabs li{
-  
-        width: none;
-        flex-basis:0;
-        flex-grow: 1;
-     
-        }
-  }
-     
-  @media screen and (max-width:500px){
-     ul.tabs li{
-  
-        padding: 20px opx;
-        
-        
-     
-        }
-        ul.tabs li a.tab-tex{
-  
-           display:none;
-        }
-  
-  
-  .secciones article{
-  
-     padding: 30px;
-  }
-  }
-  
+   }
+   
+   
+   .video-container {
+     position: relative;
+     width: 100%;
+     height: 50vh; 
+     overflow: hidden;
+   }
+   
+   .video-container iframe {
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 50%; 
+     height: 100%;
+   }
+   
+   
+   .music-container{
+   
+     position: relative;
+     width: 100%;
+     height: 50vh; 
+     overflow: hidden;
+   
+   
+   }
+   
+   .music-container iframe {
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 40%; 
+     height: 90%;
+   }
