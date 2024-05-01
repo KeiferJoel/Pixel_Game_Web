@@ -159,3 +159,169 @@
      width: 40%; 
      height: 90%;
    }
+
+
+
+
+
+   /* STILO DEL LOGIN/SINGUP
+   
+   /
+   /
+   /
+   /
+   /
+   /
+   /
+   /
+   
+   */
+
+
+/* Form container */
+.formulario {
+  width: 300px; /* Set a fixed width for the form */
+  margin: 50px auto; /* Center the form horizontally */
+  padding: 20px; /* Add some padding inside the form */
+  border: 1px solid #ccc; /* Create a subtle border */
+  border-radius: 5px; /* Add rounded corners for a nicer look */
+  background-color: #f5f5f5; /* Lighten the background for better readability */
+}
+
+/* Input fields */
+.username,
+.contraseña {
+  margin-bottom: 15px; /* Add spacing between input fields */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%; /* Make input fields full width */
+  padding: 10px;
+  border: 1px solid #f1f1f1; /* Consistent border style */
+  border-radius: 3px; /* Add subtle rounded corners */
+  box-sizing: border-box; /* Ensure padding doesn't shrink content width */
+}
+
+/* Labels */
+label {
+  display: block; /* Make labels appear on separate lines */
+  margin-bottom: 5px; /* Add some space below labels */
+}
+
+/* "Forgot password" link */
+.recordar {
+  font-size: 0.8em; /* Make the text slightly smaller */
+  text-align: right; /* Align the text to the right */
+  color: blue; /* Make the "olvidó su contraseña" text blue */
+  margin-bottom: 10px; /* Add a bit of space below the link */
+}
+
+/* Submit button */
+input[type="submit"] {
+  width: 100%; /* Make the button full width */
+  padding: 10px;
+  background-color: #4CAF50; /* Green color for a positive action */
+  color: white;
+  border: none; /* Remove default button border */
+  border-radius: 3px; /* Consistent rounded corners */
+  cursor: pointer; /* Indicate clickable behavior */
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41; /* Darken the button on hover */
+}
+
+/* Sign-up link */
+.registrarse {
+  text-align: center; /* Center the text */
+  margin-top: 15px; /* Add space above the link */
+}
+
+a {
+  color: #4CAF50; /* Consistent green color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+
+
+
+/*Apartado TEAM*/
+
+.team-section {
+  text-align: center;
+  margin: 50px 0; /* Add spacing above and below the section */
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap; /* Wrap team members on multiple lines if needed */
+  justify-content: center; /* Center the team members horizontally */
+  gap: 20px; /* Add spacing between team members */
+}
+
+.team-member {
+  position: relative; /* Required for hover effect */
+  width: 250px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden; /* Hide overflow when social links appear */
+}
+
+.creator-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire team member area */
+  transition: transform 0.3s ease; /* Smooth hover transition */
+}
+
+.creator-image:hover {
+  transform: scale(1.1); /* Zoom in slightly on hover */
+}
+
+.social-links {
+  position: absolute; /* Position the social links absolutely */
+  bottom: 0; /* Place them at the bottom of the team member area */
+  left: 0; /* Align them to the left */
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  transition: opacity 0.3s ease; /* Smooth opacity transition */
+  opacity: 0; /* Initially hidden */
+  display: none; /* Initially hidden */
+}
+
+.team-member:hover .social-links {
+  opacity: 1; /* Show the social links on hover */
+  display: flex; /* Arrange social links horizontally */
+  justify-content: space-between; /* Distribute social links evenly */
+}
+
+.social-links a {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.social-links i {
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-links a:hover i {
+  color: #f00; /* Change color on hover */
+}
+
+
+
+
+
+
+
+
+
