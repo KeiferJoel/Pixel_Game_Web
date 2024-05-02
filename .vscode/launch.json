@@ -4,11 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "vscode-edge-devtools.debug",
             "request": "launch",
             "name": "Launch Microsoft Edge and open the Edge DevTools",
-            "url": "http://localhost:8080",
+            "url": "C:\Users\Enmanuel\Documents\TODO LO RELACIONADO CON VSCODE\proyecto\pagina de juego\Pixel_Game_Web\Pixel_Game_Web\Project\index.html",
             "webRoot": "${workspaceFolder}"
         },
         
@@ -16,14 +17,14 @@
             "type": "vscode-edge-devtools.debug",
             "request": "launch",
             "name": "Launch Microsoft Edge and open the Edge DevTools",
-            "url": "http://localhost:8080",
+            "url": "C:\Users\Enmanuel\Documents\TODO LO RELACIONADO CON VSCODE\proyecto\pagina de juego\Pixel_Game_Web\Pixel_Game_Web\Project\index.html",
             "webRoot": "${workspaceFolder}"
         },
         {
             "type": "vscode-edge-devtools.debug",
             "request": "launch",
             "name": "Launch Microsoft Edge and open the Edge DevTools",
-            "url": "http://localhost:8080",
+            "url": "C:\Users\Enmanuel\Documents\TODO LO RELACIONADO CON VSCODE\proyecto\pagina de juego\Pixel_Game_Web\Pixel_Game_Web\Project\index.html",
             "webRoot": "${workspaceFolder}"
         },
         {
