@@ -257,6 +257,13 @@ a:hover {
   margin: 50px 0; /* Add spacing above and below the section */
 }
 
+h2{
+  background-color: #c03;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #fff;
+}
+
 .team-members {
   display: flex;
   flex-wrap: wrap; /* Wrap team members on multiple lines if needed */
@@ -265,13 +272,17 @@ a:hover {
 }
 
 .team-member {
+  background-color: rgb(65, 8, 36);
   position: relative; /* Required for hover effect */
+  margin: 10px;
   width: 250px; /* Adjust width as needed */
   height: 300px; /* Adjust height as needed */
   border: 1px solid #ccc;
   border-radius: 25px;
   overflow: hidden; /* Hide overflow when social links appear */
 }
+
+.team-member{}
 
 .creator-image {
   width: 100%;
