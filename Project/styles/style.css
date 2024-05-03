@@ -257,28 +257,24 @@ a:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .team-section {
+  display: flex;
   text-align: center;
-  margin: 50px 0; /* Add spacing above and below the section */
+  margin: 60px 0; /* Add spacing above and below the section */
 }
 
-.team-section h2{
-  background-color: #c03;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 35px;
-  color: #fff;
-}
+
 
 .team-members {
   display: flex;
   flex-wrap: wrap; /* Wrap team members on multiple lines if needed */
   justify-content: center; /* Center the team members horizontally */
-  gap: 20px; /* Add spacing between team members */
+  gap: 30px; /* Add spacing between team members */
 }
 
 .team-member {
-  background-color: rgb(65, 8, 36);
+  
   position: relative; /* Required for hover effect */
-  margin: 10px;
+  margin-top: 0%;
   width: 250px; /* Adjust width as needed */
   height: 300px; /* Adjust height as needed */
   background-color: #a30006;
@@ -286,12 +282,7 @@ a:hover {
   overflow: hidden; /* Hide overflow when social links appear */
 }
 
-.team-member{
 
-
-
-  
-}
 
 .creator-image {
   width: 100%;
@@ -336,12 +327,4 @@ a:hover {
 .social-links a:hover i {
   color: #f00; /* Change color on hover */
 }
-
-
-
-
-
-
-
-
 
