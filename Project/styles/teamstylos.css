@@ -1,0 +1,37 @@
+body{
+   background-color: #6b0103;
+}
+
+.team-section {
+ background-color: #420203;
+ width: 95%;
+ height: 40px;
+ margin-top: 10px;
+ color: #ffc;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+}
+
+.team-members{
+   background-color: #e03d3f;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+.team-member1{
+ background-color: #f0f;
+ margin-bottom: 10px;
+ width: 100%;
+ 
+}
+ .team-member2{
+
+ }
+
+.team-member3{}
+
+
+.team-member4{}
+
+
+.team-member5{}
