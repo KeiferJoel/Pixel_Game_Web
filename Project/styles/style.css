@@ -260,7 +260,7 @@ a:hover {
 .container p{
   text-align: center;
   font-family: sans-serif;
-  font-size: ;
+  font-size: 30;
 }
 
 .team-section {
@@ -298,12 +298,7 @@ a:hover {
   overflow: hidden; /* Hide overflow when social links appear */
 }
 
-.team-member{
-
-
-
   
-}
 
 .creator-image {
   width: 100%;
