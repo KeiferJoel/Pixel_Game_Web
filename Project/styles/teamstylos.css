@@ -20,9 +20,10 @@ body{
 
 .team-member1{
  background-color: #f0f;
+ margin-top: 10px;
  margin-bottom: 10px;
- width: 100%;
- 
+ width: 95%;
+ border: ;
 }
  .team-member2{
 
