@@ -256,6 +256,13 @@ a:hover {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.container p{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: ;
+}
+
 .team-section {
   width: 250px; /* Adjust width as needed */
   height: 300px;
@@ -266,7 +273,12 @@ a:hover {
   margin: 60px 0; /* Add spacing above and below the section */
 }
 
-
+.team-section h2{
+  background-color: #c03;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #fff;
+}
 
 .team-members {
   display: flex;
@@ -286,7 +298,12 @@ a:hover {
   overflow: hidden; /* Hide overflow when social links appear */
 }
 
+.team-member{
 
+
+
+  
+}
 
 .creator-image {
   width: 100%;
@@ -299,18 +316,7 @@ a:hover {
   transform: scale(1.1); /* Zoom in slightly on hover */
 }
 
-.social-links {
-  position: absolute; /* Position the social links absolutely */
-  bottom: 0; /* Place them at the bottom of the team member area */
-  left: 0; /* Align them to the left */
-  width: 100%;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: white;
-  transition: opacity 0.3s ease; /* Smooth opacity transition */
-  opacity: 0; /* Initially hidden */
-  display: none; /* Initially hidden */
-}
+
 
 .team-member:hover .social-links {
   opacity: 1; /* Show the social links on hover */
@@ -320,8 +326,7 @@ a:hover {
 
 .social-links a {
   display: inline-block;
-  font-size: 20px;
-  margin: 0 5px;
+  font-size: 20px;  
 }
 
 .social-links i {
