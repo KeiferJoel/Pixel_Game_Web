@@ -269,7 +269,7 @@ a:hover {
   width: 250px; /* Adjust width as needed */
   height: 300px; /* Adjust height as needed */
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 25px;
   overflow: hidden; /* Hide overflow when social links appear */
 }
 
