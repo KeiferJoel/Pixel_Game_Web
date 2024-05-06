@@ -275,7 +275,104 @@ a:hover {
   margin: 70px 0;
 }
 
+/*Apartado Novedades*/
+
+.header {
+  background-color: #1c0113;
+  padding: 15px 0;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #DA1212;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
 
 
+body{
 
+  background-color: #6b0103;  
+}
+
+
+.imagen{
+text-align: center;
+}
+
+
+.container.section  {
+
+  background-color: #1c0113;
+   padding: 10px ;
+
+}
+
+.container.section h2{
+
+  font-size: 48px;
+}
+
+.container.section p{
+
+  font-size: 24px;
+ 
+}
+
+.section{
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  width: 2000px;
+  max-width: 90%;
+  margin: 35px auto; 
+  text-align: center;
+}
+
+.contenido{
+  font-family: Arial, sans-serif;
+  width: 2000px;
+  max-width: 90%;
+  margin: 35px auto;
+  color: #ffffff;
+  margin: 35px auto;
+}
+ul.space{
+  width: 100%;
+  list-style: none;
+  display: flex;
+ background: #DA1212; 
+ padding: 10px;
+ 
+}
+
+ul.space li{
+
+  width: 20%;
+}
+
+ul.space li a{
+
+color: #ffffff;
+text-decoration: none;
+display: block;
+text-align: center;
+padding: 20px  0px;
+}
+
+ul.space li a.tabgo{
+
+  margin-left: 15px;
+}
+
+.secciones article{
+
+padding: 40px;
+}
 
