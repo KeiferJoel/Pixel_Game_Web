@@ -9,23 +9,32 @@
      font-family: Arial, sans-serif;
      margin: 0;
      padding: 0;
-     background-color: #6b0103;
+     background-color: #19376D;
      color: #ffffff;
    }
    
+   .container.section  {
+
+    background-color: #576CBC;
+     padding: 10px ;
+  
+  }
+
+
+
    .container {
      width: 80%;
      margin: 0 auto;
    }
    
    .header {
-     background-color: #1c0113;
+     background-color: #0B2447;
      padding: 20px 0;
    }
    
    .header h1 {
      font-size: 36px;
-     color: #DA1212;
+     color: #576CBC;
      margin-bottom: 10px;
    }
    
@@ -54,7 +63,7 @@
    }
    
    .navbar ul li a:hover {
-     color: #68feea;
+     color: #576CBC;
    }
    
    .hero {
@@ -77,7 +86,7 @@
    }
    
    .btn {
-     background-color: #a30006;
+     background-color: #576CBC;
      color: #ffffff;
      padding: 10px 20px;
      border: none;
@@ -88,12 +97,12 @@
    }
    
    .btn:hover {
-     background-color: #a30006;
+     background-color: #576CBC;
    }
    
    .section {
      margin-top: 15px; /* Ajusta el espacio vertical entre las secciones según tus preferencias */
-     background-color: #a30006;
+     background-color: #576CBC;
      border-radius: 35px;
      padding: 30px;
    }
@@ -267,7 +276,7 @@ a:hover {
   justify-content: center;
   width: 250px; 
   height: 200px;
-  background-color: #a30006;
+  background-color: #576CBC;
   border-radius: 35px;
   display: flex;
   
@@ -290,12 +299,7 @@ text-align: center;
 }
 
 
-.container.section  {
 
-  background-color: #a30006;
-   padding: 10px ;
-
-}
 
 .container.section h2{
 
