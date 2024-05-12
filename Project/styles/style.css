@@ -254,7 +254,7 @@ text-align: center;
 .contenido{
   font-family: Arial, sans-serif;
   width: 2000px;
-  max-width: 90%;
+  max-width: 100%;
   margin: 35px auto;
   color: #ffffff;
   margin: 35px auto;
@@ -264,7 +264,7 @@ ul.space{
   width: 100%;
   list-style: none;
   display: flex;
- background: #DA1212; 
+ background:#576CBC;
  padding: 10px;
  
 }
