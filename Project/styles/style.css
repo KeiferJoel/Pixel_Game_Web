@@ -1,58 +1,31 @@
+.vacio{
 
-
-
-/*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*/
-/*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*/
-/*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*/
-/*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*/
-/*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*/
-/*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*/
+   color: #6b0103;
+   
+   
+   }
    
    body {
      font-family: Arial, sans-serif;
      margin: 0;
      padding: 0;
-     background-color: #19376D;
+     background-color: #6b0103;
      color: #ffffff;
    }
    
-   .container.section  {
-
-    /*background-color: #576CBC;*/
-     padding: 10px ;
-     border-radius: 24px;
-     background: linear-gradient(145deg, #5d74c9, #4e61a9);
-     box-shadow:  5px 5px 0px #3e4d85,
-                  -5px -5px 0px #708bf3;
-  
-  }
-
-
-  .container.section2  {
-
-    background-color: #6e7077;
-     padding: 10px ;
-     align-content: center;
-     width: 200px;
-     height: 200px;
-   
-  
-  }
-
    .container {
-    
      width: 80%;
      margin: 0 auto;
    }
    
    .header {
-     background-color: #0B2447;
+     background-color: #1c0113;
      padding: 20px 0;
    }
    
    .header h1 {
      font-size: 36px;
-     color: #576CBC;
+     color: #DA1212;
      margin-bottom: 10px;
    }
    
@@ -81,21 +54,18 @@
    }
    
    .navbar ul li a:hover {
-     color: #576CBC;
+     color: #68feea;
    }
    
    .hero {
-   
+     background-image: url('hero-bg.jpg');
      background-size: cover;
      background-position: center;
      color: #ffffff;
      text-align: center;
      padding: 100px 0;
    }
-
-
-
-
+   
    .hero h2 {
      font-size: 48px;
      margin-bottom: 20px;
@@ -107,7 +77,7 @@
    }
    
    .btn {
-     background-color: #576CBC;
+     background-color: #a30006;
      color: #ffffff;
      padding: 10px 20px;
      border: none;
@@ -118,26 +88,18 @@
    }
    
    .btn:hover {
-     background-color: #576CBC;
+     background-color: #a30006;
    }
    
    .section {
-     margin-top: 15px; 
-     background-color: #576CBC;
+     margin-top: 15px; /* Ajusta el espacio vertical entre las secciones según tus preferencias */
+     background-color: #a30006;
      border-radius: 35px;
      padding: 30px;
    }
-
-
-   .section2 {
-    margin-top: 25px; 
-    align-content: center;
-    border-radius: 35px;
-    padding: 50px;
-  }
    
    .section h2 {
-     margin-top: 0;
+     margin-top: 0; /* Ajusta el margen superior del título según sea necesario */
    }
    
    .section h2 {
@@ -202,14 +164,93 @@
 
 
 
+   /* STILO DEL LOGIN/SINGUP
+   
+   /
+   /
+   /
+   /
+   /
+   /
+   /
+   /
+   
+   */
 
-/*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*/
-/*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*/
-/*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*/
-/*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*/
-/*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*/
-/*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*//*Apartado TEAM*/
 
+/* Form container */
+.formulario {
+  width: 300px; /* Set a fixed width for the form */
+  margin: 50px auto; /* Center the form horizontally */
+  padding: 20px; /* Add some padding inside the form */
+  border: 1px solid #ccc; /* Create a subtle border */
+  border-radius: 5px; /* Add rounded corners for a nicer look */
+  background-color: #f5f5f5; /* Lighten the background for better readability */
+}
+
+/* Input fields */
+.username,
+.contraseña {
+  margin-bottom: 15px; /* Add spacing between input fields */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%; /* Make input fields full width */
+  padding: 10px;
+  border: 1px solid #f1f1f1; /* Consistent border style */
+  border-radius: 3px; /* Add subtle rounded corners */
+  box-sizing: border-box; /* Ensure padding doesn't shrink content width */
+}
+
+/* Labels */
+label {
+  display: block; /* Make labels appear on separate lines */
+  margin-bottom: 5px; /* Add some space below labels */
+}
+
+/* "Forgot password" link */
+.recordar {
+  font-size: 0.8em; /* Make the text slightly smaller */
+  text-align: right; /* Align the text to the right */
+  color: blue; /* Make the "olvidó su contraseña" text blue */
+  margin-bottom: 10px; /* Add a bit of space below the link */
+}
+
+/* Submit button */
+input[type="submit"] {
+  width: 100%; /* Make the button full width */
+  padding: 10px;
+  background-color: #4CAF50; /* Green color for a positive action */
+  color: white;
+  border: none; /* Remove default button border */
+  border-radius: 3px; /* Consistent rounded corners */
+  cursor: pointer; /* Indicate clickable behavior */
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41; /* Darken the button on hover */
+}
+
+/* Sign-up link */
+.registrarse {
+  text-align: center; /* Center the text */
+  margin-top: 15px; /* Add space above the link */
+}
+
+a {
+  color: #4CAF50; /* Consistent green color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+
+
+
+/*Apartado TEAM*/
 
 .container h1{
   text-align: center;
@@ -226,7 +267,7 @@
   justify-content: center;
   width: 250px; 
   height: 200px;
-  background-color: #576CBC;
+  background-color: #a30006;
   border-radius: 35px;
   display: flex;
   
@@ -234,17 +275,14 @@
   margin: 70px 0;
 }
 
+/*Apartado Novedades*/
 
 
 
 
 
-/*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*/
-/*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*/
-/*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*/
-/*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*/
-/*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*/
-/*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*//*Apartado Novedades*/
+
+
 
 
 .imagen{
@@ -252,7 +290,12 @@ text-align: center;
 }
 
 
+.container.section  {
 
+  background-color: #a30006;
+   padding: 10px ;
+
+}
 
 .container.section h2{
 
@@ -270,28 +313,22 @@ text-align: center;
 .contenido{
   font-family: Arial, sans-serif;
   width: 2000px;
-  max-width: 100%;
+  max-width: 90%;
   margin: 35px auto;
   color: #ffffff;
   margin: 35px auto;
 }
-
 ul.space{
   width: 100%;
   list-style: none;
   display: flex;
- background:#576CBC;
+ background: #DA1212; 
  padding: 10px;
  
 }
 
-ul.space li:hover{
-
-  background: #0B2447;
-}
-
 ul.space li{
-transition: all 500ms ease;
+
   width: 20%;
 }
 
@@ -313,6 +350,4 @@ ul.space li a.tabgo{
 
 padding: 40px;
 }
-
-
 
