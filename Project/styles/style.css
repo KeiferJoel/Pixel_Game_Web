@@ -220,6 +220,944 @@
   text-align: center;
   margin: 70px 0;
 }
+ 
+
+/*enmanuel*/
+.radio-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-inputs > * {
+  margin: 6px;
+}
+
+.instagram:checked + .radio-tile {
+  border-color: #cc39a4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #cc39a4;
+  border-color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.instagram:checked + .radio-tile .radio-label {
+  color: #cc39a4;
+}
+
+.instagram:focus + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.instagram:checked + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+}
+
+.instagram:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*  Twitter */
+.twitter:checked + .radio-tile {
+  border-color: #03a9f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #03a9f4;
+  border-color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.twitter:checked + .radio-tile .radio-label {
+  color: #03a9f4;
+}
+
+.twitter:focus + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.twitter:checked + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+}
+
+.twitter:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+/* discord */
+.discord:checked + .radio-tile {
+  border-color: #8c9eff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #8c9eff;
+}
+
+.discord:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #8c9eff;
+  border-color: #8c9eff;
+}
+
+.discord:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.discord:checked + .radio-tile .radio-label {
+  color: #8c9eff;
+}
+
+.discord:focus + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.discord:checked + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+}
+
+.discord:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  min-height: 80px;
+  border-radius: 0.5rem;
+  border: 2px solid #b5bfd9;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.15s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.instagram:hover {
+  border-color: #cc39a4;
+}
+.twitter:hover {
+  border-color: #03a9f4;
+}
+.discord:hover {
+  border-color: #8c9eff;
+}
+
+.radio-tile:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+.instagram {
+  fill: #cc39a4;
+}
+.twitter {
+  fill: #03a9f4;
+}
+.discord {
+  fill: #8c9eff;
+}
+
+.radio-label {
+  color: #707070;
+  transition: 0.375s ease;
+  text-align: center;
+  font-size: 13px;
+}
+
+.radio-input {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+/*rjal*/
+.radio-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-inputs > * {
+  margin: 6px;
+}
+
+.instagram:checked + .radio-tile {
+  border-color: #cc39a4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #cc39a4;
+  border-color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.instagram:checked + .radio-tile .radio-label {
+  color: #cc39a4;
+}
+
+.instagram:focus + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.instagram:checked + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+}
+
+.instagram:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*  Twitter */
+.twitter:checked + .radio-tile {
+  border-color: #03a9f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #03a9f4;
+  border-color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.twitter:checked + .radio-tile .radio-label {
+  color: #03a9f4;
+}
+
+.twitter:focus + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.twitter:checked + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+}
+
+.twitter:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+/* discord */
+.discord:checked + .radio-tile {
+  border-color: #8c9eff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #8c9eff;
+}
+
+.discord:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #8c9eff;
+  border-color: #8c9eff;
+}
+
+.discord:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.discord:checked + .radio-tile .radio-label {
+  color: #8c9eff;
+}
+
+.discord:focus + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.discord:checked + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+}
+
+.discord:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  min-height: 80px;
+  border-radius: 0.5rem;
+  border: 2px solid #b5bfd9;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.15s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.instagram:hover {
+  border-color: #cc39a4;
+}
+.twitter:hover {
+  border-color: #03a9f4;
+}
+.discord:hover {
+  border-color: #8c9eff;
+}
+
+.radio-tile:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+.instagram {
+  fill: #cc39a4;
+}
+.twitter {
+  fill: #03a9f4;
+}
+.discord {
+  fill: #8c9eff;
+}
+
+.radio-label {
+  color: #707070;
+  transition: 0.375s ease;
+  text-align: center;
+  font-size: 13px;
+}
+
+.radio-input {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+/*rafael*/
+.radio-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-inputs > * {
+  margin: 6px;
+}
+
+.instagram:checked + .radio-tile {
+  border-color: #cc39a4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #cc39a4;
+  border-color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.instagram:checked + .radio-tile .radio-label {
+  color: #cc39a4;
+}
+
+.instagram:focus + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.instagram:checked + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+}
+
+.instagram:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*  Twitter */
+.twitter:checked + .radio-tile {
+  border-color: #03a9f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #03a9f4;
+  border-color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.twitter:checked + .radio-tile .radio-label {
+  color: #03a9f4;
+}
+
+.twitter:focus + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.twitter:checked + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+}
+
+.twitter:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+/* discord */
+.discord:checked + .radio-tile {
+  border-color: #8c9eff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #8c9eff;
+}
+
+.discord:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #8c9eff;
+  border-color: #8c9eff;
+}
+
+.discord:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.discord:checked + .radio-tile .radio-label {
+  color: #8c9eff;
+}
+
+.discord:focus + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.discord:checked + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+}
+
+.discord:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  min-height: 80px;
+  border-radius: 0.5rem;
+  border: 2px solid #b5bfd9;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.15s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.instagram:hover {
+  border-color: #cc39a4;
+}
+.twitter:hover {
+  border-color: #03a9f4;
+}
+.discord:hover {
+  border-color: #8c9eff;
+}
+
+.radio-tile:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+.instagram {
+  fill: #cc39a4;
+}
+.twitter {
+  fill: #03a9f4;
+}
+.discord {
+  fill: #8c9eff;
+}
+
+.radio-label {
+  color: #707070;
+  transition: 0.375s ease;
+  text-align: center;
+  font-size: 13px;
+}
+
+.radio-input {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+/*alcy*/
+.radio-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-inputs > * {
+  margin: 6px;
+}
+
+.instagram:checked + .radio-tile {
+  border-color: #cc39a4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #cc39a4;
+  border-color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.instagram:checked + .radio-tile .radio-label {
+  color: #cc39a4;
+}
+
+.instagram:focus + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.instagram:checked + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+}
+
+.instagram:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*  Twitter */
+.twitter:checked + .radio-tile {
+  border-color: #03a9f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #03a9f4;
+  border-color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.twitter:checked + .radio-tile .radio-label {
+  color: #03a9f4;
+}
+
+.twitter:focus + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.twitter:checked + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+}
+
+.twitter:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+/* discord */
+.discord:checked + .radio-tile {
+  border-color: #8c9eff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #8c9eff;
+}
+
+.discord:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #8c9eff;
+  border-color: #8c9eff;
+}
+
+.discord:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.discord:checked + .radio-tile .radio-label {
+  color: #8c9eff;
+}
+
+.discord:focus + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.discord:checked + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+}
+
+.discord:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  min-height: 80px;
+  border-radius: 0.5rem;
+  border: 2px solid #b5bfd9;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.15s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.instagram:hover {
+  border-color: #cc39a4;
+}
+.twitter:hover {
+  border-color: #03a9f4;
+}
+.discord:hover {
+  border-color: #8c9eff;
+}
+
+.radio-tile:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+.instagram {
+  fill: #cc39a4;
+}
+.twitter {
+  fill: #03a9f4;
+}
+.discord {
+  fill: #8c9eff;
+}
+
+.radio-label {
+  color: #707070;
+  transition: 0.375s ease;
+  text-align: center;
+  font-size: 13px;
+}
+
+.radio-input {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+/*keifer*/
+.radio-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-inputs > * {
+  margin: 6px;
+}
+
+.instagram:checked + .radio-tile {
+  border-color: #cc39a4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #cc39a4;
+  border-color: #cc39a4;
+}
+
+.instagram:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.instagram:checked + .radio-tile .radio-label {
+  color: #cc39a4;
+}
+
+.instagram:focus + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.instagram:checked + .radio-tile {
+  background-color: #cc39a4;
+  border-color: #fff;
+}
+
+.instagram:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*  Twitter */
+.twitter:checked + .radio-tile {
+  border-color: #03a9f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #03a9f4;
+  border-color: #03a9f4;
+}
+
+.twitter:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.twitter:checked + .radio-tile .radio-label {
+  color: #03a9f4;
+}
+
+.twitter:focus + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.twitter:checked + .radio-tile {
+  background-color: #03a9f4;
+  border-color: #fff;
+}
+
+.twitter:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+/* discord */
+.discord:checked + .radio-tile {
+  border-color: #8c9eff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #8c9eff;
+}
+
+.discord:checked + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #8c9eff;
+  border-color: #8c9eff;
+}
+
+.discord:checked + .radio-tile .radio-icon svg {
+  fill: #fff;
+}
+
+.discord:checked + .radio-tile .radio-label {
+  color: #8c9eff;
+}
+
+.discord:focus + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+}
+.discord:checked + .radio-tile {
+  background-color: #8c9eff;
+  border-color: #fff;
+}
+
+.discord:focus + .radio-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  min-height: 80px;
+  border-radius: 0.5rem;
+  border: 2px solid #b5bfd9;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.15s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.instagram:hover {
+  border-color: #cc39a4;
+}
+.twitter:hover {
+  border-color: #03a9f4;
+}
+.discord:hover {
+  border-color: #8c9eff;
+}
+
+.radio-tile:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+.instagram {
+  fill: #cc39a4;
+}
+.twitter {
+  fill: #03a9f4;
+}
+.discord {
+  fill: #8c9eff;
+}
+
+.radio-label {
+  color: #707070;
+  transition: 0.375s ease;
+  text-align: center;
+  font-size: 13px;
+}
+
+.radio-input {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 
 /*Apartado Novedades*/
 
@@ -610,3 +1548,12 @@ padding: 40px;
   letter-spacing: 0.33em;
   z-index: 3;
 }
+ 
+
+
+
+
+
+
+
+
