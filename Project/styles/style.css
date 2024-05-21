@@ -610,3 +610,113 @@ padding: 40px;
   letter-spacing: 0.33em;
   z-index: 3;
 }
+
+/* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias */
+/* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias */
+/* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias */
+/* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias */
+/* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias */
+/* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias *//* apartado categorias */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 5fr;
+}
+
+.content-cards {
+  padding: 1rem;
+  /* grid */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+/* .content-cards a {
+  
+} */
+
+.cards{
+	border-radius: 10px;
+  width: 150px;
+	min-height: 200px;
+	font-weight: bold;
+	margin: 0.3rem;
+  padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+  transition: transform 0.3s ease-in-out;
+  filter: grayscale(20%);
+}
+
+.cards:hover {
+  box-shadow:  3px 6px 10px 0 rgba(0, 0, 0, 0.70);
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+.cards img{
+  width: 100%;
+  padding: 0;
+}
+
+.cards .text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 15px;
+  text-shadow: 2px 2px 15px #000;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards .text:hover {
+  text-shadow: 2px 3px 50px purple, 2px 20px 500px rgba(0, 0, 0, 10);
+}
+
+.nav {
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  padding: 1rem;
+  color: white;
+
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav ul li {
+  list-style: none;
+  padding: 0.8rem;
+}
+
+.nav a{
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+  padding: 0;
+}
+
+.nav:hover {
+  color: cornflowerblue;
+}
+
