@@ -9,10 +9,13 @@
 /*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*//*Config pagina completa*/
    
     
+
+
+
  body {
  
   /*Fuente*/
-
+  
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -21,7 +24,7 @@
   /*Fondo*/
 
   /*background-color: #19376D;*/
-  background-image: url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   min-height: 100vh;
 
   /*Cursor*/
@@ -37,7 +40,7 @@
   background: linear-gradient(145deg, #3b65fcc3, #4e62a9f4);
   box-shadow:  5px 5px 0px #3e4d85,
                -5px -5px 0px #708bf3;
-
+  backdrop-filter: blur(15px);
 }
 
 
@@ -52,6 +55,8 @@
 
 }
 
+
+
 .container {
  
   width: 80%;
@@ -59,19 +64,108 @@
 }
 
 .header {
-  background-color: #0B2447;
+  background-color: #0b2447b0;
+  backdrop-filter: blur(20px);
   padding: 20px 0;
 }
 
 .header h1 {
   font-size: 36px;
-  color: #576CBC;
+  color: #ffffff; 
   margin-bottom: 10px;
+  text-align: center;
+ 
 }
 
+.pixel-gaming {
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+
+.mundo-pixelado{
+
+  font-family: sans-serif;
+}
+
+
 .header p {
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/*.h2slogan h2{
+  
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 29px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255) ;
+
+  background:rgba(113, 4, 113, 0.841);
+  backdrop-filter: brightness(50);
+  border-radius: 30px;
+  margin: 5% auto 30px auto;
+  width: 55%;
+
+}*/
+
+
+
+.h2slogan h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 29px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background: rgba(113, 4, 113, 0.841);
+  border-radius: 30px;
+  margin: 5% auto 30px auto;
+  width: 55%;
+  animation: backgroundAnimation 5s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+      background-color: rgba(113, 4, 113, 0.777);
+      backdrop-filter: invert(2);
+  }
+  50% {
+      background-color: rgba(4, 113, 113, 0.777);
+      backdrop-filter: invert(2);
+      
+  }
+  100% {
+      background-color: rgba(4, 113, 4, 0.599);
+      backdrop-filter: invert(2);
+  }
+}
+
+/*.h2slogan :hover{
+  transition: backdrop-filter 0.1s;
+  backdrop-filter: brightness(0);
+}*/
+
+h2{
+  color: #bbb;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 3%;
+  text-align: center;
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+
 }
 
 .navbar ul {
@@ -79,35 +173,58 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  
 }
+
 
 .navbar ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 15px;  
+  border-radius: 5%;
+
 }
 
 .navbar ul li a {
+  
+  padding: .35rem .65rem;
+  color: #fff;
+  border: 1.5px solid #9149e36a;
+  background-color: #9149e36a;
+  backdrop-filter: blur(100px);
+  
   text-decoration: none;
-  color: #ffffff;
+  border-radius: 5px;
+
+ 
   font-size: 20px;
   transition: color 0.3s;
+
 }
 
 .navbar ul li a:hover {
   color: #576CBC;
+  background-color: #fff;
+  transition: border-radius 1s;
+  border-radius: 10px;
+  border-radius: 50px;
 }
 
-   .hero {
- background-color: #1c4ba3c9;
- border-radius: 9%;
- margin-left: 10%;
- margin-right: 10%;
- margin-top: 5%;
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-  text-align: center;
-  padding: 100px 0;
+.hero {
+   background-color: #1c4ba3c9;
+   backdrop-filter: blur(15px);
+   border-radius: 9%;
+   margin: 5% 10% 0 10%;
+   background-size: cover;
+   background-position: center;
+   color: #ffffff;
+   text-align: center;
+   padding: 100px 0;
+  }
+
+.hero img{
+  display: inline-block;
+ 
+  border-radius: 10%;
 }
 
 .heroh2 {
