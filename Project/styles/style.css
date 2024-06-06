@@ -564,9 +564,6 @@ h2{
 text-align: center;
 }
 
-
-
-
 .container.section h2{
 
   font-size: 48px;
@@ -577,7 +574,6 @@ text-align: center;
   font-size: 24px;
  
 }
-
 
 
 .contenido{
@@ -593,20 +589,30 @@ ul.space{
   width: 100%;
   list-style: none;
   display: flex;
- background:#576CBC;
+ background: #9149e36a;
  padding: 10px;
+  transition: border-radius 1s;
+  border-radius: 10px;
+  border-radius: 50px;
  
 }
 
 ul.space li:hover{
+  
+  background-color:#ffffff;
 
-  background: #0B2447;
+  transition: border-radius 1s;
+  border-radius: 10px;
+  border-radius: 50px;
 }
 
 ul.space li{
 transition: all 500ms ease;
   width: 20%;
+ 
 }
+
+
 
 ul.space li a{
 
