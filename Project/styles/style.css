@@ -187,7 +187,7 @@ margin-left: 501px;
   
 }
 
-.h2slogan h2 {
+.h2slogan h2  {
 
   text-align: center;
   font-family: sans-serif;
@@ -195,7 +195,7 @@ margin-left: 501px;
   font-size: 29px;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
   border-radius: 30px;
   margin: 5% auto 30px auto;
   width: 55%;
@@ -207,9 +207,6 @@ margin-left: 501px;
   animation-iteration-count: 1;
 }
 
-.h2slogan h2 :hover{
-  
-}
 
 @keyframes backgroundAnimation {
   0% {
@@ -273,8 +270,6 @@ h2{
   }
 }
 
-
-
 .logo_inicio{
   overflow: hidden;
   color: white;
@@ -286,33 +281,21 @@ h2{
   
 }
 
-
-
 .navbar {
   display: flex;
-
   flex-direction: row;
- 
-  
 }
 
 .navbar :hover > :not(:hover){
   opacity: 0.4;
 }
 
- 
-
-
 
 .navbar ul {
-  
   flex-direction: row;
- 
   margin: auto 0 auto 255px;
- 
   padding: 0;
   text-align: center;
-  
 }
 
 .container button{ /*Arreglar despues*/
@@ -321,11 +304,7 @@ h2{
   justify-content: end;
 }
 
-
-
-
 .navbar ul li {
-  
   transition: opacity 1s ease;
   display:inline;
   margin: auto 0; 
@@ -335,33 +314,55 @@ h2{
 }
 
 .navbar ul li a {
-  
   padding: .25rem .65rem;
-  
- 
   color: #ffffff;
   border: 1.5px solid #ff00006a;
   background-color: #0000006a;
   backdrop-filter: blur(100px);
-  
   text-decoration: none;
   border-radius: 5px;
-
   font-size: 20px;
-  
-
 }
 
 .navbar ul li a:hover {
   color: #ffffff;
-  background-color: #ff000064;
+  
   transition: border-radius 1s;
   border-radius: 10px;
   border-radius: 50px;
 }
 
+
+.navbar_buttom_inicio :hover{
+  background-color: #ff000064;
+}
+
+.navbar_buttom_comunidad :hover{
+  background-color: #38d40062;
+  border: 1.5px solid #44ff0062;
+}
+
+.navbar_buttom_categorias :hover{
+  background-color: #ffe600ab;
+  border: 1.5px solid #ffff008d;
+}
+
+.navbar_buttom_novedades :hover{
+  background-color: #8a00c162;
+  border: 1.5px solid #b700ff62;
+}
+
+.navbar_buttom_team :hover{
+  background-color: #0050c162;
+  border: 1.5px solid #003cff62;
+}
+
+
+
+
+
 .hero {
-    background-color: #000000af;
+   background-color: #000000af;
    backdrop-filter: blur(15px);
    border-radius: 3% ;
    margin: 5% 5% 0 5%;
@@ -751,53 +752,93 @@ text-align: center;
   margin: 35px auto;
 }
 
-ul.space{
-  width: 100%;
-  list-style: none;
-  display: flex;
- background: #9149e36a;
- padding: 10px;
-  transition: border-radius 1s;
-  border-radius: 10px;
-  border-radius: 50px;
- 
+.secciones{
+
+margin-top: 5%;
+
 }
-
-ul.space li:hover{
-  
-  background-color:#ffffff;
-
-  transition: border-radius 1s;
-  border-radius: 10px;
-  border-radius: 50px;
-}
-
-ul.space li{
-transition: all 500ms ease;
-  width: 20%;
- 
-}
-
-
-
-ul.space li a{
-
-color: #ffffff;
-text-decoration: none;
-display: block;
-text-align: center;
-padding: 20px  0px;
-}
-
-ul.space li a.tabgo{
-
-  margin-left: 15px;
-}
-
 .secciones article{
 
-padding: 40px;
+padding: 4%;
+
 }
 
 
 
+.bar_Novedades {
+  display: flex;
+
+  flex-direction: row;
+ 
+  
+}
+
+.container_Novedades   { 
+  
+  width: 100%;
+  max-width: 95%;
+  min-width: 95%;
+  margin: 45px auto 5px auto;
+
+}
+
+.bar_Novedades :hover > :not(:hover){
+  opacity: 0.4;
+}
+
+ 
+.bar_Novedades ul {
+  
+  flex-direction: row;
+ 
+  margin: 55px auto auto auto;
+ 
+  padding: 0;
+  text-align: center;
+  
+}
+
+.container button{ /*Arreglar despues*/
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+
+
+
+.bar_Novedades ul li {
+  
+  transition: opacity 1s ease;
+  display:inline;
+  margin: auto 0; 
+  margin-right:15px;  
+  border-radius: 5%;
+
+}
+
+.bar_Novedades ul li a {
+  
+  padding: .25rem .65rem;
+  
+ 
+  color: #ffffff;
+  border: 1.5px solid #9900ff71;
+  background-color: #000000c8;
+  backdrop-filter: blur(100px);
+  
+  text-decoration: none;
+  border-radius: 5px;
+
+  font-size: 30px;
+  
+
+}
+
+.bar_Novedades ul li a:hover {
+  color: #ffffff;
+  background-color: #9900ff71;
+  transition: border-radius 1s;
+  border-radius: 10px;
+  border-radius: 50px;
+}
